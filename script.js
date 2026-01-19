@@ -10,7 +10,8 @@ start.addEventListener('click',()=>{
     dingSFX.play()
     setTimeout(() => {
         dingSFX.pause()
-        window.location.href = window.location.origin + '/page/maze.html'
+        //window.location.href = window.location.origin + '/page/maze.html'
+        window.location.href += '/page/maze.html'
         /* let modeNo = Math.round(Math.random()*1)
         switch (modeNo) {
             case 0:
