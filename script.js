@@ -14,10 +14,12 @@ start.addEventListener('click',()=>{
         /* let modeNo = Math.round(Math.random()*1)
         switch (modeNo) {
             case 0:
-                window.location.href = window.location.origin + '/page/maze.html'
+                //window.location.href += window.location.origin + '/page/maze.html'
+                window.location.href += '/page/maze.html'
                 break;
             case 1:
-                window.location.href = window.location.origin + '/page/lake.html'
+                //window.location.href = window.location.origin + '/page/lake.html'
+                window.location.href += '/page/maze.html'
                 break;
         } */
     }, 2000);
